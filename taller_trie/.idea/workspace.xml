@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
+    <generated>
+      <config projectName="taller_trie" targetName="correrTests_ext" />
+      <config projectName="taller_trie" targetName="correrTests" />
+      <config projectName="taller_trie" targetName="gtest" />
+      <config projectName="taller_trie" targetName="correrValgrind" />
+      <config projectName="taller_trie" targetName="gtest_main" />
+    </generated>
+  </component>
+  <component name="CMakeSettings">
+    <configurations>
+      <configuration PROFILE_NAME="Debug" CONFIG_NAME="Debug" />
+    </configurations>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="bfbaaf98-9aa9-4b56-84c4-0e85c8ffafd3" name="Default Changelist" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ClangdSettings">
+    <option name="formatViaClangd" value="false" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
+  <component name="ProjectId" id="1StAglasdjvtyILcFG6xPB1gWY3" />
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../TPAlgo2/tpialgo2" />
+    <property name="nodejs_package_manager_path" value="npm" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="CMake Application.correrValgrind">
+    <configuration name="correrTests" type="CMakeGoogleTestRunConfigurationType" factoryName="Google Test" PASS_PARENT_ENVS_2="true" PROJECT_NAME="taller_trie" TARGET_NAME="correrTests" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="taller_trie" RUN_TARGET_NAME="correrTests" TEST_MODE="SUITE_TEST">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+        <option name="BeforeTestRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="correrTests_ext" type="CMakeGoogleTestRunConfigurationType" factoryName="Google Test" PASS_PARENT_ENVS_2="true" PROJECT_NAME="taller_trie" TARGET_NAME="correrTests_ext" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="taller_trie" RUN_TARGET_NAME="correrTests_ext" TEST_MODE="SUITE_TEST">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+        <option name="BeforeTestRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="string_map_test.asignar" type="CMakeGoogleTestRunConfigurationType" factoryName="Google Test" temporary="true" PASS_PARENT_ENVS_2="true" PROJECT_NAME="taller_trie" TARGET_NAME="correrTests" RUN_TARGET_PROJECT_NAME="taller_trie" RUN_TARGET_NAME="correrTests" TEST_CLASS="string_map_test" TEST_METHOD="asignar" TEST_MODE="SUITE_TEST">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+        <option name="BeforeTestRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="string_map_test.erase" type="CMakeGoogleTestRunConfigurationType" factoryName="Google Test" temporary="true" PASS_PARENT_ENVS_2="true" PROJECT_NAME="taller_trie" TARGET_NAME="correrTests" RUN_TARGET_PROJECT_NAME="taller_trie" RUN_TARGET_NAME="correrTests" TEST_CLASS="string_map_test" TEST_METHOD="erase" TEST_MODE="SUITE_TEST">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+        <option name="BeforeTestRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="string_map_test.obtener" type="CMakeGoogleTestRunConfigurationType" factoryName="Google Test" temporary="true" PASS_PARENT_ENVS_2="true" PROJECT_NAME="taller_trie" TARGET_NAME="correrTests" RUN_TARGET_PROJECT_NAME="taller_trie" RUN_TARGET_NAME="correrTests" TEST_CLASS="string_map_test" TEST_METHOD="obtener" TEST_MODE="SUITE_TEST">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+        <option name="BeforeTestRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="string_map_test.redefinir" type="CMakeGoogleTestRunConfigurationType" factoryName="Google Test" temporary="true" PASS_PARENT_ENVS_2="true" PROJECT_NAME="taller_trie" TARGET_NAME="correrTests" RUN_TARGET_PROJECT_NAME="taller_trie" RUN_TARGET_NAME="correrTests" TEST_CLASS="string_map_test" TEST_METHOD="redefinir" TEST_MODE="SUITE_TEST">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+        <option name="BeforeTestRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="correrTests" type="CMakeRunConfiguration" factoryName="Application" temporary="true" PASS_PARENT_ENVS_2="true" PROJECT_NAME="taller_trie" TARGET_NAME="correrTests" RUN_TARGET_PROJECT_NAME="taller_trie" RUN_TARGET_NAME="correrTests">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="correrValgrind" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="taller_trie" TARGET_NAME="correrValgrind" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="gtest" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="taller_trie" TARGET_NAME="gtest" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="gtest_main" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="taller_trie" TARGET_NAME="gtest_main" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="CMake Application.correrValgrind" />
+      <item itemvalue="CMake Application.gtest" />
+      <item itemvalue="CMake Application.gtest_main" />
+      <item itemvalue="CMake Application.correrTests" />
+      <item itemvalue="Google Test.correrTests" />
+      <item itemvalue="Google Test.correrTests_ext" />
+      <item itemvalue="Google Test.string_map_test.asignar" />
+      <item itemvalue="Google Test.string_map_test.obtener" />
+      <item itemvalue="Google Test.string_map_test.erase" />
+      <item itemvalue="Google Test.string_map_test.redefinir" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Google Test.string_map_test.redefinir" />
+        <item itemvalue="Google Test.string_map_test.obtener" />
+        <item itemvalue="Google Test.string_map_test.asignar" />
+        <item itemvalue="Google Test.string_map_test.erase" />
+        <item itemvalue="CMake Application.correrTests" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="bfbaaf98-9aa9-4b56-84c4-0e85c8ffafd3" name="Default Changelist" comment="" />
+      <created>1572372631170</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1572372631170</updated>
+      <workItem from="1572372634339" duration="942000" />
+      <workItem from="1572534230469" duration="10007000" />
+      <workItem from="1572547103553" duration="7892000" />
+      <workItem from="1572555599358" duration="1167000" />
+      <workItem from="1572556842177" duration="15000" />
+      <workItem from="1572560250565" duration="52000" />
+      <workItem from="1572560396101" duration="11617000" />
+      <workItem from="1572575414009" duration="870000" />
+      <workItem from="1572659607729" duration="6439000" />
+      <workItem from="1572670822148" duration="620000" />
+      <workItem from="1572698923879" duration="9469000" />
+      <workItem from="1572710067342" duration="8364000" />
+      <workItem from="1572719063705" duration="3975000" />
+      <workItem from="1572725589939" duration="1008000" />
+      <workItem from="1572738277778" duration="2537000" />
+      <workItem from="1572755488192" duration="421000" />
+      <workItem from="1572790736516" duration="20244000" />
+      <workItem from="1572818107603" duration="2015000" />
+      <workItem from="1572822088976" duration="3750000" />
+      <workItem from="1572826127066" duration="10036000" />
+      <workItem from="1572836478992" duration="4821000" />
+      <workItem from="1574350234935" duration="23000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/tests/string_map_tests.cpp</url>
+          <line>152</line>
+          <option name="timeStamp" value="14" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/src/string_map.hpp</url>
+          <line>28</line>
+          <option name="timeStamp" value="23" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

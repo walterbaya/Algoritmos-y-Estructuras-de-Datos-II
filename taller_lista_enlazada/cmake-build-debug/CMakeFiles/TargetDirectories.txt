@@ -1,0 +1,6 @@
+/home/walter/Escritorio/taller_lista_enlazada/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/walter/Escritorio/taller_lista_enlazada/cmake-build-debug/CMakeFiles/correrValgrind.dir
+/home/walter/Escritorio/taller_lista_enlazada/cmake-build-debug/CMakeFiles/correrTests.dir
+/home/walter/Escritorio/taller_lista_enlazada/cmake-build-debug/CMakeFiles/gtest.dir
+/home/walter/Escritorio/taller_lista_enlazada/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/walter/Escritorio/taller_lista_enlazada/cmake-build-debug/CMakeFiles/gtest_main.dir

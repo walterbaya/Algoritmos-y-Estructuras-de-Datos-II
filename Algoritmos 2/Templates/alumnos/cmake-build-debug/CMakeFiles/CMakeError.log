@@ -1,0 +1,63 @@
+Performing C SOURCE FILE Test CMAKE_HAVE_LIBC_PTHREAD failed with the following output:
+Change Dir: /home/walter/Escritorio/Algoritmos 2/Memoria Dinamica/03_templates (1)/alumnos/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_3db02/fast && /usr/bin/make -f CMakeFiles/cmTC_3db02.dir/build.make CMakeFiles/cmTC_3db02.dir/build
+make[1]: se entra en el directorio '/home/walter/Escritorio/Algoritmos 2/Memoria Dinamica/03_templates (1)/alumnos/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_3db02.dir/src.c.o
+/usr/bin/cc   -DCMAKE_HAVE_LIBC_PTHREAD   -o CMakeFiles/cmTC_3db02.dir/src.c.o   -c "/home/walter/Escritorio/Algoritmos 2/Memoria Dinamica/03_templates (1)/alumnos/cmake-build-debug/CMakeFiles/CMakeTmp/src.c"
+Linking C executable cmTC_3db02
+/home/walter/Descargas/CLion-2019.2.3/clion-2019.2.3/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3db02.dir/link.txt --verbose=1
+/usr/bin/cc  -DCMAKE_HAVE_LIBC_PTHREAD    -rdynamic CMakeFiles/cmTC_3db02.dir/src.c.o  -o cmTC_3db02 
+CMakeFiles/cmTC_3db02.dir/src.c.o: En la función `main':
+src.c:(.text+0x3e): referencia a `pthread_create' sin definir
+src.c:(.text+0x4a): referencia a `pthread_detach' sin definir
+src.c:(.text+0x5b): referencia a `pthread_join' sin definir
+src.c:(.text+0x6f): referencia a `pthread_atfork' sin definir
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_3db02.dir/build.make:86: recipe for target 'cmTC_3db02' failed
+make[1]: *** [cmTC_3db02] Error 1
+make[1]: se sale del directorio '/home/walter/Escritorio/Algoritmos 2/Memoria Dinamica/03_templates (1)/alumnos/cmake-build-debug/CMakeFiles/CMakeTmp'
+Makefile:121: recipe for target 'cmTC_3db02/fast' failed
+make: *** [cmTC_3db02/fast] Error 2
+
+
+Source file was:
+#include <pthread.h>
+
+void* test_func(void* data)
+{
+  return data;
+}
+
+int main(void)
+{
+  pthread_t thread;
+  pthread_create(&thread, NULL, test_func, NULL);
+  pthread_detach(thread);
+  pthread_join(thread, NULL);
+  pthread_atfork(NULL, NULL, NULL);
+  pthread_exit(NULL);
+
+  return 0;
+}
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /home/walter/Escritorio/Algoritmos 2/Memoria Dinamica/03_templates (1)/alumnos/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_f75ce/fast && /usr/bin/make -f CMakeFiles/cmTC_f75ce.dir/build.make CMakeFiles/cmTC_f75ce.dir/build
+make[1]: se entra en el directorio '/home/walter/Escritorio/Algoritmos 2/Memoria Dinamica/03_templates (1)/alumnos/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_f75ce.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_f75ce.dir/CheckFunctionExists.c.o   -c /home/walter/Descargas/CLion-2019.2.3/clion-2019.2.3/bin/cmake/linux/share/cmake-3.15/Modules/CheckFunctionExists.c
+Linking C executable cmTC_f75ce
+/home/walter/Descargas/CLion-2019.2.3/clion-2019.2.3/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f75ce.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create    -rdynamic CMakeFiles/cmTC_f75ce.dir/CheckFunctionExists.c.o  -o cmTC_f75ce -lpthreads 
+/usr/bin/ld: no se puede encontrar -lpthreads
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_f75ce.dir/build.make:86: recipe for target 'cmTC_f75ce' failed
+make[1]: *** [cmTC_f75ce] Error 1
+make[1]: se sale del directorio '/home/walter/Escritorio/Algoritmos 2/Memoria Dinamica/03_templates (1)/alumnos/cmake-build-debug/CMakeFiles/CMakeTmp'
+Makefile:121: recipe for target 'cmTC_f75ce/fast' failed
+make: *** [cmTC_f75ce/fast] Error 2
+
+
+
