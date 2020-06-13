@@ -1,4 +1,0 @@
-/home/walter/Descargas/CLion-2019.2.3/clion-2019.2.3/bin/cmake/linux/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" "/home/walter/Escritorio/Algoritmos 2/Memoria Dinamica/03_templates (1)/alumnos"
--- Configuring done
--- Generating done
--- Build files have been written to: /home/walter/Escritorio/Algoritmos 2/Memoria Dinamica/03_templates (1)/alumnos/cmake-build-debug
